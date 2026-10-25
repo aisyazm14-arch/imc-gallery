@@ -29,13 +29,13 @@
     flex: 1;
     padding: 20px;
     background: white;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 5fr));
+    align-content: start;
     gap: 15px;
 }
 
 .photo-card {
-    width: 230px;
     aspect-ratio: 1 / 1;
     background: white;
     border-radius: 10px;
