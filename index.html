@@ -13,16 +13,18 @@
     <body>  
         <nav class="navbar">
             <h1 class="navbar-title">IMC Gallery</h1>
-            <div class="search-bar-container">
-                <input id="search-bar" type="text" placeholder="Search" aria-label="Search file">
-                <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="navbar-actions">
+                <div class="search-bar-container">
+                    <input id="search-bar" type="text" placeholder="Search" aria-label="Search file">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <button id="settings-btn" type="button" aria-label="Open settings">
+                    <i class="fa-solid fa-gear"></i>
+                </button>
+                <button id="profile-btn" type="button" aria-label="View profile">
+                    <i class="fa-solid fa-circle-user"></i>
+                </button>
             </div>
-            <button id="settings-btn" type="button" aria-label="Open settings">
-                <i class="fa-solid fa-gear"></i>
-            </button>
-            <button id="profile-btn" type="button" aria-label="View profile">
-                <i class="fa-solid fa-circle-user"></i>
-            </button>
             <div class="wave-container">
                 <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1440 320">
                     <path fill="#ffffff" fill-opacity="1" d="M0,192L26.7,192C53.3,192,107,192,160,181.3C213.3,171,267,149,320,149.3C373.3,149,427,171,480,154.7C533.3,139,587,85,640,80C693.3,75,747,117,800,117.3C853.3,117,907,75,960,80C1013.3,85,1067,139,1120,138.7C1173.3,139,1227,85,1280,74.7C1333.3,64,1387,96,1413,112L1440,128L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path>
