@@ -33,8 +33,9 @@
             </div>
         </nav>
         <div class="main-container">
-            <aside class="sidebar" id="sidebar">
-                <ul class="sidebar-menu">
+            <div class="sidebar-wrapper">
+                <aside class="sidebar" id="sidebar">
+                    <ul class="sidebar-menu">
                     <li>
                         <a href="#">
                             <i class="fa-solid fa-house"></i>
@@ -65,11 +66,12 @@
                             People
                         </a>
                     </li>
-                </ul>
-            </aside>
-            <button id="toggle-sidebar-btn" aria-label="Toggle sidebar">
-                <i class="fa-solid fa-arrows-left-right"></i>
-            </button>
+                    </ul>
+                </aside>
+                <button id="toggle-sidebar-btn" aria-label="Toggle sidebar">
+                    <i class="fa-solid fa-arrows-left-right" id="toggle-icon"></i>
+                </button>
+            </div>
             <main class="content">
                 <article class="photo-card"></article>
                 <article class="photo-card"></article>

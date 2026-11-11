@@ -120,10 +120,16 @@
     min-height: 100vh;
     position: sticky;
     top: 0;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
 }
 
-.sidebar.hidden {
+.sidebar-wrapper {
+    position: relative;
+    display: flex;
+    transition: all 0.3s ease;
+}
+
+.sidebar-wrapper.hidden {
     transform: translateX(-100%);
 }
 
@@ -151,6 +157,20 @@
 
 .sidebar-menu a:hover {
     background: white;
+}
+
+#toggle-sidebar-btn {
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 10;
 }
 
 .content {
