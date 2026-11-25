@@ -162,7 +162,7 @@
 
 #toggle-sidebar-btn {
     position: absolute;
-    right: -15px;
+    right: -10px;
     top: 50%;
     transform: translateY(-50%);
     background: white;
@@ -253,7 +253,7 @@
     border-radius: 20px;
     font-weight: bold;
     cursor: pointer;
-    transition: all o.3s ease;
+    transition: all 0.3s ease;
 }
 
 .btn-login.hover {
